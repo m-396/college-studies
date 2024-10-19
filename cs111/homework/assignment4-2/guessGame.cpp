@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-  // declare variables? no...
+  // declare variables? 
   srand(time(0)); // randomizes each time program is ran
   int num = rand() % 100 + 1; // num equals random number, and "% 100 + 1" ensures numbers 1 to 100
   int guess = 0; // for user's guess
@@ -34,7 +34,7 @@ int main()
       cin >> guess;
     }
   // once while loop is exited (guess equals random number), this is ran
-  cout << "Your guessed it right! " << endl;
+  cout << "Your guessed it right! " << endl; // the sample runs spelled it this way
 
   cout << endl;
   return 0;
